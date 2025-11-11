@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Merdivenlendirildi — Tek Sayfa</title>
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#0b1220;
+      --accent:#ffd166;
+      --text:#f8fafc;
+    }
+    *{box-sizing:border-box}
+    html,body{
+      height:100%;
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+      background:linear-gradient(180deg,var(--bg), #081127);
+      color:var(--text);
+    }
+    .wrap{
+      min-height:100%;
+      display:grid;
+      place-items:center;
+      padding:48px;
+    }
+    .card{
+      background:linear-gradient(180deg,rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      padding:36px;
+      border-radius:16px;
+      box-shadow:0 8px 30px rgba(2,6,23,0.7);
+      width:100%;
+      max-width:720px;
+      text-align:center;
+    }
+    h1{
+      margin:0 0 22px;
+      font-size:28px;
+      letter-spacing:1px;
+    }
+    .ladder-wrap{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:12px;
+    }
+    .ladder{
+      width:120px;
+      height:42cm;
+      max-height:80vh;
+      display:block;
+    }
+    .caption{
+      margin-top:10px;
+      font-weight:700;
+      text-transform:uppercase;
+    }
+    .warning{
+      margin-top:18px;
+      font-size:14px;
+      color:#ffdede;
+      background:linear-gradient(90deg, rgba(255,0,0,0.06), transparent);
+      padding:10px;
+      border-radius:8px;
+    }
+    @media (max-width:520px){
+      h1{font-size:20px}
+      .ladder{width:86px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>HAHAHAHAHAHA MERDİVENLENDİN DOSTUMM</h1>
+      <div class="ladder-wrap">
+        <svg class="ladder" viewBox="0 0 120 420" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="42 cm merdiven">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#e6a800" stop-opacity="1"/>
+              <stop offset="100%" stop-color="#a35f00" stop-opacity="1"/>
+            </linearGradient>
+            <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+              <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.6"/>
+            </filter>
+          </defs>
+          <rect x="8" y="10" width="104" height="400" rx="6" fill="rgba(0,0,0,0.12)"/>
+          <rect x="12" y="10" width="10" height="400" rx="4" fill="url(#g1)" filter="url(#shadow)"/>
+          <rect x="98" y="10" width="10" height="400" rx="4" fill="url(#g1)" filter="url(#shadow)"/>
+          <g fill="#8b5e00">
+            <rect x="24" y="24" width="72" height="8" rx="3"/>
+            <rect x="24" y="48" width="72" height="8" rx="3"/>
+            <rect x="24" y="72" width="72" height="8" rx="3"/>
+            <rect x="24" y="96" width="72" height="8" rx="3"/>
+            <rect x="24" y="120" width="72" height="8" rx="3"/>
+            <rect x="24" y="144" width="72" height="8" rx="3"/>
+            <rect x="24" y="168" width="72" height="8" rx="3"/>
+            <rect x="24" y="192" width="72" height="8" rx="3"/>
+            <rect x="24" y="216" width="72" height="8" rx="3"/>
+            <rect x="24" y="240" width="72" height="8" rx="3"/>
+            <rect x="24" y="264" width="72" height="8" rx="3"/>
+            <rect x="24" y="288" width="72" height="8" rx="3"/>
+            <rect x="24" y="312" width="72" height="8" rx="3"/>
+            <rect x="24" y="336" width="72" height="8" rx="3"/>
+            <rect x="24" y="360" width="72" height="8" rx="3"/>
+          </g>
+          <text x="60" y="410" font-size="12" text-anchor="middle" fill="#ffffff" opacity="0.8">42 cm</text>
+        </svg>
+        <div class="caption">BİLMEDİGİN SİTELERE TIKLAMA</div>
+        <div class="warning">Not: Bu sayfa tek sayfadır — istersen HTML'yi kaydedip doğrudan açabilirsin.</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
